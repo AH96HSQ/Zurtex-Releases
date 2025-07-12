@@ -2,157 +2,133 @@
 <html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Zurtex VPN</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Vazirmatn', sans-serif;
+      font-family: "Vazirmatn", sans-serif;
+      background-color: #121212;
+      color: #f1f1f1;
       margin: 0;
-      background-color: #111;
-      color: #f0f0f0;
-      padding: 0 20px;
+      padding: 0;
+      direction: rtl;
     }
-    header {
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    h1, h2 {
       text-align: center;
-      padding: 40px 10px 10px;
-      background-color: #1c1c1c;
-      border-bottom: 1px solid #333;
-    }
-    h1 {
-      font-size: 36px;
       color: #56A6E7;
     }
-    p.lead {
-      font-size: 18px;
-      color: #ccc;
-      margin-bottom: 20px;
+
+    p {
+      text-align: center;
+      line-height: 1.8;
     }
+
     section {
-      max-width: 900px;
-      margin: 40px auto;
-      background-color: #1b1b1b;
+      margin-bottom: 40px;
+    }
+
+    .download-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .download-button img {
+      height: 60px;
       border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.3);
-      padding: 30px 20px;
+      transition: transform 0.2s ease-in-out;
     }
-    h2 {
-      font-size: 22px;
-      color: #56A6E7;
-      margin-bottom: 15px;
-      border-bottom: 1px solid #333;
-      display: inline-block;
-      padding-bottom: 5px;
+
+    .download-button img:hover {
+      transform: scale(1.05);
     }
-    a {
-      color: #56A6E7;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .badge img {
-      margin-top: 10px;
-    }
+
     .screenshots {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 15px;
+      gap: 10px;
     }
+
     .screenshots img {
       width: 200px;
-      border-radius: 12px;
-      border: 1px solid #333;
+      border-radius: 8px;
     }
-    ul.features {
-      list-style: none;
-      padding: 0;
-      text-align: right;
-    }
-    ul.features li::before {
-      content: "✔ ";
-      color: #4caf50;
-    }
-    .footer {
-      text-align: center;
-      margin: 50px 0 20px;
-      font-size: 13px;
-      color: #888;
+
+    a {
+      color: #56A6E7;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-
-  <header>
+  <div class="container">
     <h1>Zurtex VPN</h1>
-    <p class="lead">اپلیکیشن قدرتمند برای اتصال امن، سریع و بی‌دردسر به اینترنت</p>
-  </header>
+    <p>اپلیکیشن قدرتمند برای اتصال امن، سریع و بی‌دردسر به اینترنت!</p>
 
-  <section>
-    <h2>معرفی</h2>
-    <p>
-      Zurtex VPN یک برنامه اندرویدی ساده و سبک برای اتصال سریع و مطمئن به اینترنت است.  
-      بدون نیاز به ثبت‌نام، با سرورهای پرسرعت و پشتیبانی قوی از کاربران ایرانی.
-    </p>
-  </section>
+    <section>
+      <h2>معرفی</h2>
+      <p>
+        Zurtex VPN یک برنامه اندرویدی ساده و سبک برای اتصال سریع و مطمئن به اینترنت است<br />
+        با سرورهای پرسرعت، بدون نیاز به ثبت‌نام و پشتیبانی قوی
+      </p>
+    </section>
 
-<section>
-  <h2>دانلود برنامه</h2>
-  <div style="text-align: center; margin-top: 20px;">
-    <a href="https://github.com/HoseinSadeqi96/Zurtex-Releases/releases/download/v1.1.1/ZurtexVPN_v1.1.1.apk">
-      <img 
-        src="https://img.shields.io/badge/%20-دانلود%20ZurtexVPN%20APK-56A6E7?style=for-the-badge&logo=android&logoColor=white" 
-        alt="Download Zurtex APK" 
-        style="max-width: 100%; height: auto; border-radius: 12px;"
-      />
-    </a>
+    <section>
+      <h2>دانلود برنامه</h2>
+      <div class="download-button">
+        <a href="https://github.com/HoseinSadeqi96/Zurtex-Releases/releases/download/v1.1.1/ZurtexVPN_v1.1.1.apk">
+          <img 
+            src="https://img.shields.io/badge/Download%20ZurtexVPN-APK-blue?style=for-the-badge&logo=android&logoColor=white" 
+            alt="Download APK" 
+          />
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>تصاویر محیط برنامه</h2>
+      <div class="screenshots">
+        <img src="Screenshots/Screenshot (1).jpg" alt="screenshot 1" />
+        <img src="Screenshots/Screenshot (2).jpg" alt="screenshot 2" />
+        <img src="Screenshots/Screenshot (3).jpg" alt="screenshot 3" />
+        <img src="Screenshots/Screenshot (4).jpg" alt="screenshot 4" />
+      </div>
+    </section>
+
+    <section>
+      <h2>ویژگی‌ها</h2>
+      <p>
+        اتصال سریع و پایدار<br />
+        سرورهای ویژه برای کاربران ایرانی<br />
+        رمزنگاری کامل ارتباط<br />
+        بدون نیاز به ثبت‌نام<br />
+        پشتیبانی از طریق تلگرام
+      </p>
+    </section>
+
+    <section>
+      <h2>پشتیبانی و ارتباط</h2>
+      <p>
+        <a href="https://t.me/ZurtexV2rayApp" target="_blank">کانال تلگرام</a> |
+        <a href="https://t.me/Zurtexapp" target="_blank">پشتیبانی</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>نکته مهم</h2>
+      <p>
+        نسخه‌های قبلی دیگر پشتیبانی نمی‌شوند<br />
+        لطفاً همیشه آخرین نسخه را از همین صفحه دریافت کنید
+      </p>
+    </section>
   </div>
-</section>
-
-
-  <section>
-    <h2>تصاویر محیط برنامه</h2>
-    <div class="screenshots">
-      <img src="Screenshots/Screenshot (1).jpg" alt="Screenshot 1" />
-      <img src="Screenshots/Screenshot (2).jpg" alt="Screenshot 2" />
-      <img src="Screenshots/Screenshot (3).jpg" alt="Screenshot 3" />
-      <img src="Screenshots/Screenshot (4).jpg" alt="Screenshot 4" />
-    </div>
-  </section>
-
-  <section>
-    <h2>ویژگی‌ها</h2>
-    <ul class="features">
-      <li>اتصال سریع و پایدار</li>
-      <li>رمزنگاری کامل ارتباط</li>
-      <li>بدون نیاز به ثبت‌نام</li>
-      <li>سرورهای مخصوص کاربران ایران</li>
-      <li>پشتیبانی از طریق تلگرام</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>پشتیبانی و ارتباط</h2>
-    <p>
-      <a href="https://t.me/ZurtexV2rayApp">کانال تلگرام</a><br />
-      <a href="https://t.me/Zurtexapp">پشتیبانی</a>
-    </p>
-  </section>
-
-  <section>
-    <h2>نکته مهم</h2>
-    <p>
-      نسخه‌های قبلی دیگر پشتیبانی نمی‌شوند.  
-      لطفاً همیشه آخرین نسخه را از همین صفحه دریافت کنید.
-    </p>
-  </section>
-
-  <div class="footer">
-    Zurtex VPN © 2025 – ساخته‌شده با ❤️ برای کاربران ایرانی
-  </div>
-
 </body>
 </html>
