@@ -2,27 +2,49 @@
 <html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zurtex VPN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: sans-serif;
-      background-color: #121212;
+      font-family: 'Vazirmatn', sans-serif;
+      margin: 0;
+      background-color: #111;
       color: #f0f0f0;
+      padding: 0 20px;
+    }
+    header {
       text-align: center;
-      padding: 30px 15px;
-      line-height: 1.8;
+      padding: 40px 10px 10px;
+      background-color: #1c1c1c;
+      border-bottom: 1px solid #333;
     }
     h1 {
+      font-size: 36px;
       color: #56A6E7;
-      font-size: 32px;
+    }
+    p.lead {
+      font-size: 18px;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #1b1b1b;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      padding: 30px 20px;
     }
     h2 {
-      margin-top: 40px;
-      font-size: 24px;
-      border-bottom: 1px solid #444;
+      font-size: 22px;
+      color: #56A6E7;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #333;
       display: inline-block;
-      padding-bottom: 4px;
+      padding-bottom: 5px;
     }
     a {
       color: #56A6E7;
@@ -31,44 +53,62 @@
     a:hover {
       text-decoration: underline;
     }
-    .badge {
-      display: inline-block;
-      margin: 20px 0;
+    .badge img {
+      margin-top: 10px;
+    }
+    .screenshots {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
     }
     .screenshots img {
-      width: 250px;
-      margin: 8px;
-      border-radius: 10px;
-      box-shadow: 0 0 6px rgba(255,255,255,0.1);
+      width: 200px;
+      border-radius: 12px;
+      border: 1px solid #333;
     }
-    .section {
-      margin-top: 40px;
+    ul.features {
+      list-style: none;
+      padding: 0;
+      text-align: right;
+    }
+    ul.features li::before {
+      content: "✔ ";
+      color: #4caf50;
+    }
+    .footer {
+      text-align: center;
+      margin: 50px 0 20px;
+      font-size: 13px;
+      color: #888;
     }
   </style>
 </head>
 <body>
 
-  <h1>Zurtex VPN</h1>
-  <p>اپلیکیشن قدرتمند برای اتصال امن، سریع و بی‌دردسر به اینترنت!</p>
+  <header>
+    <h1>Zurtex VPN</h1>
+    <p class="lead">اپلیکیشن قدرتمند برای اتصال امن، سریع و بی‌دردسر به اینترنت</p>
+  </header>
 
-  <div class="section">
+  <section>
     <h2>معرفی</h2>
     <p>
-      Zurtex VPN یک برنامه اندرویدی ساده و سبک برای اتصال سریع و مطمئن به اینترنت است<br />
-      با سرورهای پرسرعت، بدون نیاز به ثبت‌نام و پشتیبانی قوی
+      Zurtex VPN یک برنامه اندرویدی ساده و سبک برای اتصال سریع و مطمئن به اینترنت است.  
+      بدون نیاز به ثبت‌نام، با سرورهای پرسرعت و پشتیبانی قوی از کاربران ایرانی.
     </p>
-  </div>
+  </section>
 
-  <div class="section">
+  <section>
     <h2>دانلود برنامه</h2>
     <div class="badge">
       <a href="https://github.com/HoseinSadeqi96/Zurtex-Releases/releases/download/v1.1.1/ZurtexVPN_v1.1.1.apk">
         <img src="https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android" alt="Download APK" />
       </a>
     </div>
-  </div>
+  </section>
 
-  <div class="section">
+  <section>
     <h2>تصاویر محیط برنامه</h2>
     <div class="screenshots">
       <img src="Screenshots/Screenshot (1).jpg" alt="Screenshot 1" />
@@ -76,33 +116,37 @@
       <img src="Screenshots/Screenshot (3).jpg" alt="Screenshot 3" />
       <img src="Screenshots/Screenshot (4).jpg" alt="Screenshot 4" />
     </div>
-  </div>
+  </section>
 
-  <div class="section">
+  <section>
     <h2>ویژگی‌ها</h2>
-    <p>
-      اتصال سریع و پایدار<br />
-      سرورهای ویژه برای کاربران ایرانی<br />
-      رمزنگاری کامل ارتباط<br />
-      بدون نیاز به ثبت‌نام<br />
-      پشتیبانی از طریق تلگرام
-    </p>
-  </div>
+    <ul class="features">
+      <li>اتصال سریع و پایدار</li>
+      <li>رمزنگاری کامل ارتباط</li>
+      <li>بدون نیاز به ثبت‌نام</li>
+      <li>سرورهای مخصوص کاربران ایران</li>
+      <li>پشتیبانی از طریق تلگرام</li>
+    </ul>
+  </section>
 
-  <div class="section">
+  <section>
     <h2>پشتیبانی و ارتباط</h2>
     <p>
       <a href="https://t.me/ZurtexV2rayApp">کانال تلگرام</a><br />
       <a href="https://t.me/Zurtexapp">پشتیبانی</a>
     </p>
-  </div>
+  </section>
 
-  <div class="section">
+  <section>
     <h2>نکته مهم</h2>
     <p>
-      نسخه‌های قبلی دیگر پشتیبانی نمی‌شوند<br />
-      لطفاً همیشه آخرین نسخه را از همین صفحه دریافت کنید
+      نسخه‌های قبلی دیگر پشتیبانی نمی‌شوند.  
+      لطفاً همیشه آخرین نسخه را از همین صفحه دریافت کنید.
     </p>
+  </section>
+
+  <div class="footer">
+    Zurtex VPN © 2025 – ساخته‌شده با ❤️ برای کاربران ایرانی
   </div>
 
 </body>
