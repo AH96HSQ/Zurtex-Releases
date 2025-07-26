@@ -17,15 +17,13 @@ Zurtex VPN یک برنامه اندرویدی ساده و سبک برای اتص
 
 <p align="center">
   <a href="https://github.com/AH96HSQ/Zurtex-Releases/releases/download/v1.3.0/zurtexMainV1.3.0.apk">
-    <img src="https://img.shields.io/badge/نسخه_اصلی-APK-56A6E7?style=for-the-badge&logo=android&logoColor=white" alt="دانلود نسخه اصلی" />
+    <img src="https://img.shields.io/badge/دانلود-نسخه-اصلی-APK-56A6E7?style=for-the-badge&logo=android&logoColor=white" alt="دانلود نسخه اصلی" />
   </a>
-  &nbsp; <!-- spacing -->
+  &nbsp;
   <a href="https://github.com/AH96HSQ/Zurtex-Releases/releases/download/v1.3.0/zurtexMelliV1.1.0.apk">
-    <img src="https://img.shields.io/badge/نسخه_ملی-APK-9700FF?style=for-the-badge&logo=android&logoColor=white" alt="دانلود نسخه ملی" />
+    <img src="https://img.shields.io/badge/دانلود-نسخه-ملی-APK-9700FF?style=for-the-badge&logo=android&logoColor=white" alt="دانلود نسخه ملی" />
   </a>
 </p>
-
-
 
 ---
 
