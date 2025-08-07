@@ -16,11 +16,11 @@ Zurtex VPN یک برنامه اندرویدی ساده و سبک برای اتص
 ## Download the App
 
 <p align="center">
-  <a href="https://github.com/AH96HSQ/Zurtex-Releases/releases/download/v1.3.1/zurtexMainV1.3.1.apk">
+  <a href="https://github.com/AH96HSQ/Zurtex-Releases/releases/download/v1.3.2/zurtexMainV1.3.2.apk">
     <img src="https://img.shields.io/badge/Main_Version-APK-56A6E7?style=for-the-badge&logo=android&logoColor=white" alt="Download Main APK" />
   </a>
   &nbsp;
-  <a href="https://github.com/AH96HSQ/Zurtex-Releases/releases/download/v1.3.1/zurtexMelliV1.1.1.apk">
+  <a href="https://github.com/AH96HSQ/Zurtex-Releases/releases/download/v1.3.2/zurtexMelliV1.1.2.apk">
     <img src="https://img.shields.io/badge/Melli_Version-APK-9700FF?style=for-the-badge&logo=android&logoColor=white" alt="Download Melli APK" />
   </a>
 </p>
