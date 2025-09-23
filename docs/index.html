@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta name="description" content="Zurtex Pro VPN — اتصال سریع، امن و بدون دردسر برای کاربران ایرانی. دانلود مستقیم آخرین نسخه اندروید." />
-<meta name="keywords" content="Zurtex Pro, VPN, Zurtex, دانلود VPN, اندروید VPN, ایران VPN" />
-<meta name="robots" content="index, follow" />
-
-<!-- Open Graph for social sharing -->
-<meta property="og:title" content="Zurtex Pro VPN" />
-<meta property="og:description" content="دانلود مستقیم Zurtex Pro برای اندروید — سریع، امن و بدون دردسر." />
-<meta property="og:image" content="https://zurtex.net/ScreenShots/ScreenShot%20(1).jpg" />
-<meta property="og:url" content="https://zurtex.net" />
-<meta property="og:type" content="website" />
-
-<!-- Twitter card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Zurtex Pro VPN">
-<meta name="twitter:description" content="دانلود مستقیم Zurtex Pro برای اندروید.">
-<meta name="twitter:image" content="https://zurtex.net/ScreenShots/ScreenShot%20(1).jpg">
-
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Zurtex Pro</title>
+
+  <title>Zurtex Pro VPN — سریع، امن و بدون دردسر | دانلود مستقیم اندروید</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="docs/Icon.png">
+
+  <!-- Canonical & basic SEO -->
+  <link rel="canonical" href="https://zurtex.net/">
+  <meta name="description" content="دانلود مستقیم Zurtex Pro VPN برای اندروید. اتصال سریع، امن و بدون دردسر با پشتیبانی از V2Ray (وی2ری) برای کاربران ایرانی." />
+  <meta name="keywords" content="Zurtex Pro, Zurtex VPN, VPN Android, دانلود VPN اندروید, VPN ایران, V2Ray, وی2ری, v2ray اندروید" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#1565C0" />
+
+  <!-- Open Graph for social sharing -->
+  <meta property="og:title" content="Zurtex Pro VPN" />
+  <meta property="og:description" content="دانلود مستقیم Zurtex Pro برای اندروید — سریع، امن و بدون دردسر با پشتیبانی از V2Ray (وی2ری)." />
+  <meta property="og:image" content="https://zurtex.net/ScreenShots/ScreenShot%20(1).jpg" />
+  <meta property="og:url" content="https://zurtex.net" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Zurtex Pro VPN">
+  <meta name="twitter:description" content="دانلود مستقیم Zurtex Pro برای اندروید — سریع، امن و بدون دردسر.">
+  <meta name="twitter:image" content="https://zurtex.net/ScreenShots/ScreenShot%20(1).jpg">
+
+  <!-- JSON-LD Schema for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Zurtex Pro VPN",
+    "operatingSystem": "Android",
+    "applicationCategory": "VPNApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "IRR"
+    },
+    "description": "Zurtex Pro VPN — سریع، امن و بدون دردسر. پشتیبانی کامل از V2Ray (وی2ری).",
+    "url": "https://zurtex.net",
+    "image": "https://zurtex.net/docs/Icon.png"
+  }
+  </script>
 
   <style>
     :root{
@@ -54,7 +80,7 @@
     }
     .sub{ margin:0 0 28px; color:var(--muted); font-size:clamp(14px, 2.8vw, 18px); opacity:.9; }
 
-    section{ margin:56px 0; } /* a bit more vertical padding */
+    section{ margin:56px 0; }
 
     .cta{
       display:inline-block; padding:18px 44px; border-radius:18px;
@@ -74,7 +100,6 @@
       outline:1px solid rgba(255,255,255,.08);
       box-shadow:0 8px 28px rgba(0,0,0,.35);
     }
-    /* Hide the 3rd screenshot on mobile */
     @media (max-width:600px){
       .shot--3{ display:none; }
     }
@@ -90,7 +115,6 @@
       width:min(720px, 96%);
     }
 
-    /* Row layout: label right, price left */
     .row{
       display:flex; align-items:center; justify-content:space-between;
       gap:16px; margin:16px 0 8px;
@@ -114,9 +138,7 @@
       box-shadow:0 2px 8px rgba(0,0,0,.35); cursor:pointer;
     }
 
-    .totals{
-      display:flex; flex-wrap:wrap; gap:10px; margin-top:14px;
-    }
+    .totals{ display:flex; flex-wrap:wrap; gap:10px; margin-top:14px; }
     .chip{
       flex:1 1 160px;
       background:linear-gradient(180deg, rgba(21,101,192,.25), rgba(21,101,192,.10));
@@ -141,18 +163,18 @@
 <body>
   <main class="wrap">
     <h1>Zurtex Pro</h1>
-    <p class="sub">دانلود مستقیم اندروید</p>
+    <p class="sub">دانلود مستقیم اندروید با پشتیبانی V2Ray (وی2ری)</p>
 
     <!-- Focus CTA -->
     <section>
       <a class="cta" href="https://github.com/AH96HSQ/Zurtex-Releases/releases/download/v1.1.3%2B4/ZurtexPro.1.1.3+4.apk">دانلود</a>
     </section>
 
-    <!-- Screenshots (hide #3 on mobile) -->
+    <!-- Screenshots -->
     <section class="shots">
-      <img class="shot" src="ScreenShots/ScreenShot%20(1).jpg" alt="s1">
-      <img class="shot" src="ScreenShots/ScreenShot%20(2).jpg" alt="s2">
-      <img class="shot shot--3" src="ScreenShots/ScreenShot%20(3).jpg" alt="s3">
+      <img class="shot" src="ScreenShots/ScreenShot%20(1).jpg" alt="Zurtex Pro VPN screenshot 1 - home screen">
+      <img class="shot" src="ScreenShots/ScreenShot%20(2).jpg" alt="Zurtex Pro VPN screenshot 2 - server list">
+      <img class="shot shot--3" src="ScreenShots/ScreenShot%20(3).jpg" alt="Zurtex Pro VPN screenshot 3 - settings">
     </section>
 
     <!-- Price Calculator -->
@@ -187,7 +209,6 @@
   </main>
 
   <script>
-    // pricing: 1000 Toman per day, 2800 Toman per GB
     const DAY_PRICE = 1000;
     const GB_PRICE  = 2800;
 
@@ -200,10 +221,8 @@
     const gbPriceTxt   = document.getElementById('gbPriceTxt');
     const totalEl      = document.getElementById('totalPrice');
 
-    // English digits
     const en = n => Number(n).toLocaleString('en-US');
 
-    // "N هزار تومان" if clean 1000s, else "12,600 تومان"
     function priceText(amount){
       return (amount % 1000 === 0)
         ? `${en(amount/1000)} هزار تومان`
