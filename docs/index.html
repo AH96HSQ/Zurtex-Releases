@@ -104,11 +104,10 @@
 <body>
   <main class="wrap">
     <h1>Zurtex Pro</h1>
-    <p class="sub">دانلود مستقیم اندروید با پشتیبانی V2Ray</p>
 
     <!-- Focus CTA -->
     <section>
-      <a class="cta" href="https://github.com/AH96HSQ/Zurtex-Releases/releases/download/v1.1.3%2B4/ZurtexPro.1.1.3+4.apk">دانلود</a>
+      <a class="cta" href="https://github.com/AH96HSQ/Zurtex-Releases/releases/download/v1.1.3%2B4/ZurtexPro.1.1.3+4.apk">دانلود و تست رایگان</a>
 
 
     <!-- Screenshots -->
@@ -118,26 +117,31 @@
       <img class="shot shot--3" src="ScreenShots/ScreenShot%20(3).jpg" alt="Zurtex Pro VPN screenshot 3 - settings">
     </section>
 
-    <!-- Price Calculator -->
-    <section>
-      <div class="card" dir="rtl">
-        <div class="row">
-          <div class="label"><span id="daysVal">30</span> روز اشتراک</div>
-          <div class="price" id="daysPriceTxt">30 هزار تومان</div>
-        </div>
-        <input id="days" type="range" min="1" max="365" value="30" step="1" aria-label="روز اشتراک">
+<!-- Price Calculator -->
+<section>
+  <div class="card" dir="rtl">
+    <h2 style="text-align:center; margin-top:0; margin-bottom:20px; font-size:20px; color:#eaf1ff;">
+      محاسبه گر هزینه تمدید
+    </h2>
 
-        <div class="row">
-          <div class="label"><span id="gbVal">30</span> گیگابایت حجم</div>
-          <div class="price" id="gbPriceTxt">84 هزار تومان</div>
-        </div>
-        <input id="gb" type="range" min="0" max="200" value="30" step="1" aria-label="حجم گیگابایت">
+    <div class="row">
+      <div class="label"><span id="daysVal">30</span> روز اشتراک</div>
+      <div class="price" id="daysPriceTxt">30 هزار تومان</div>
+    </div>
+    <input id="days" type="range" min="1" max="365" value="30" step="1" aria-label="روز اشتراک">
 
-        <div class="totals">
-          <div class="chip total">جمع کل: <span id="totalPrice">114,000</span> تومان</div>
-        </div>
-      </div>
-    </section>
+    <div class="row">
+      <div class="label"><span id="gbVal">30</span> گیگابایت حجم</div>
+      <div class="price" id="gbPriceTxt">84 هزار تومان</div>
+    </div>
+    <input id="gb" type="range" min="0" max="200" value="30" step="1" aria-label="حجم گیگابایت">
+
+    <div class="totals">
+      <div class="chip total">جمع کل: <span id="totalPrice">114,000</span> تومان</div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Links -->
     <section>
