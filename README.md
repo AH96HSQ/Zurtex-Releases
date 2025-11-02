@@ -1,7 +1,7 @@
 <h1 align="center">Zurtex Pro</h1>
 
 <p align="center">
-  <a href="https://github.com/AH96HSQ/Zurtex-Releases/releases/download/v1.1.3%2B4/ZurtexPro.1.1.3+4.apk">
+  <a href="https://github.com/AH96HSQ/Zurtex-Releases/releases/download/v1.1.4%2B7/ZurtexPro.1.1.4+7.apk">
     <img src="docs/Download.png" alt="Download Zurtex Pro (APK)" width="720">
   </a>
 </p>
