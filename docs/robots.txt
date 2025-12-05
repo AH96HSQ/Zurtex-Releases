@@ -1,4 +1,9 @@
+# Zurtex Robots.txt
 User-agent: *
 Allow: /
 
+# Sitemap
 Sitemap: https://zurtex.net/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
